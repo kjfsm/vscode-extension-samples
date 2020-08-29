@@ -1,9 +1,11 @@
 # vscode-extension-samples
 
+vscodeの拡張機能を初めて作る人に役立つ情報を集めている。
+
 ## 雛形の作成
 https://code.visualstudio.com/api/get-started/your-first-extension
 
-VSCodeの拡張機能は Yeomanというツールで雛形を生成することができる。
+vscodeの拡張機能は Yeomanというツールで雛形を生成することができる。
 
 ```
 $ npm i -g yo generator-code
