@@ -30,3 +30,11 @@ $ yo code
 ```
 
 `yo code` と実行し、質問に答えるとディレクトリが作成される。
+
+## 作ったものたち
+
+### 01-hello-world
+`yo code` で作った雛形。 README.mdに生成されたファイルの説明がある。
+
+### 02-show-commands
+APIで用意されている `showXXX` の説明。
