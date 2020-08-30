@@ -1,6 +1,6 @@
 # vscode-extension-samples
 
-vscodeの拡張機能を初めて作る人に役立つ情報を集めている。
+vscodeの拡張機能を初めて作る人に役立ちそうな情報を集めている。
 
 ## 雛形の作成
 https://code.visualstudio.com/api/get-started/your-first-extension
