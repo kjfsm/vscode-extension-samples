@@ -11,6 +11,8 @@ vscodeの拡張機能は Yeomanというツールで雛形を生成すること�
 $ npm i -g yo generator-code
 ```
 
+`yo code` と実行し、質問に答えるとディレクトリが作成される。
+
 ```
 $ yo code
      _-----_     ╭─────────────────────────╮
@@ -31,8 +33,6 @@ $ yo code
 ? Which package manager to use? npm
 ```
 
-`yo code` と実行し、質問に答えるとディレクトリが作成される。
-
 ## 作ったものたち
 
 ### 01-hello-world
@@ -40,3 +40,6 @@ $ yo code
 
 ### 02-show-commands
 APIで用意されている `showXXX` の説明。
+
+### 03-config
+configを読み込む
