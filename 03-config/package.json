@@ -3,6 +3,7 @@
   "displayName": "03-config",
   "description": "",
   "version": "0.0.1",
+  "publisher": "kjfsm",
   "engines": {
     "vscode": "^1.48.0"
   },
@@ -19,7 +20,26 @@
         "command": "03-config.loadConfig",
         "title": "load config"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "config",
+      "properties": {
+        "config.string": {
+          "type": "string",
+          "default": "default string",
+          "description": "文字列"
+        },
+        "config.boolean": {
+          "type": "boolean",
+          "default": true,
+          "description": "真偽値"
+        },
+        "config.object": {
+          "type": "object",
+          "description": "object"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
